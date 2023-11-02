@@ -1,0 +1,20 @@
+.section-title-container{
+       padding: 7vh 0 !important;
+}
+.section-subTitle{
+       color: #c7a17a !important;
+}
+.section-subTitle{
+       font-size: 1.3rem;
+}
+.section-title{
+font-size: 2rem;
+font-weight: 600;
+padding-bottom: 3vh;
+}
+.border{
+       width: 15vw;
+       height: .5vh;
+       background-color: #c7a17a;
+       border-radius: 1rem;
+}

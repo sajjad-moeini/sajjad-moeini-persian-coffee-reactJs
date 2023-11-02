@@ -1,0 +1,40 @@
+.home-product-img-container{
+       width: 303px;
+       height: 303px; 
+       cursor: pointer;
+}
+.home-product-add-toCart{
+       width: 100%;
+       height: 15%;
+       bottom: -20%;
+       background-color: #c7a17a;
+font-weight: 500;
+font-size: 1.1rem;
+transition: all .5s;
+cursor: pointer;
+}
+.home-product-img-container:hover .home-product-add-toCart{
+       bottom: 0 !important;
+}
+.home-product-sale-badge{
+       background-color: #c7a17a;
+       top: 5%;
+       left: 10%;
+}
+.home-product-title{
+       font-size: 1.3rem;
+       font-weight: 600;
+       transition: all .5s;
+       cursor: pointer;
+}
+.home-product-title:hover{
+       color: #c7a17a !important;
+}
+.home-product-stars{
+       color: #c7a17a;
+}
+.home-product-price{
+       color: #c7a17a;
+       font-size: 1.5rem;
+       font-weight: 500;
+}

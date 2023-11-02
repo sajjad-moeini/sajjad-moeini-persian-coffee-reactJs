@@ -1,0 +1,72 @@
+.footer{
+       background: url(../../../public/images/home/footer-img.jpg);
+       background-size: cover;
+      
+}
+.footer-wrapper{
+       width: 85% !important;
+}
+.footer-col-header{
+       font-size: 1.2rem;
+       font-weight: 500;
+}
+.footer-open-time-box{
+       padding: 1.5vh 0;
+}
+.footer-item-underline{
+       width: auto !important;
+}
+.footer-item-day{
+       font-size: .9rem;
+       font-weight: 500;
+       white-space: nowrap;
+}
+.footer-item-active-hours{
+       white-space: nowrap;
+       font-weight: 500;
+}
+.footer-item-close-time{
+       color: #c7a17a;
+       font-weight: 500;
+       font-size: 1rem;
+}
+
+.footer-second-col-box{
+       border-bottom: 1px solid rgba(255, 255, 255, 0.306);
+       padding: .5vh 0;
+}
+.footer-second-col-box:nth-last-of-type(1){
+       border: 0 !important;
+}
+.footer-second-col-item-title{
+       font-size: .8rem;
+       font-weight: 500;
+       transition: all .5s;
+}
+.footer-second-col-item-title:hover{
+       color: #c7a17a !important;
+}
+.footer-second-col-item-subtitle{
+color: #c7a17a;
+font-size: .9rem;
+}
+.footer-email-input{
+       border-top-right-radius: 0 !important;
+       border-bottom-right-radius: 0 !important;
+       color: aliceblue !important;
+       background-color: rgba(241, 241, 241, 0.297);
+}
+.footer-sendEmail-btn{
+       background-color: #c7a17a;
+       transition: all .5s;
+       padding: 0 1.5vw;
+       font-size: 1.5rem;
+       border: 0;
+       border-top-left-radius: .8rem !important;
+       border-bottom-left-radius: .8rem !important;
+       
+}
+.footer-sendEmail-btn:hover{
+       background-color: #c7a17a;
+       color: aliceblue;
+}

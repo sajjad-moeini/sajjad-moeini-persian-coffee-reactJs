@@ -1,0 +1,53 @@
+.barista-property-container{
+       box-shadow: 0px 0px 10px 1px #c7a17a;
+       padding: 3vh 1vw !important;
+       border-radius: 1rem;
+       animation:  propertyBoxAnim 2s;
+       transition: all .5s;
+       cursor: pointer;
+}
+.barista-property-container:hover{
+       transform: translateY(-3vh);
+}
+@keyframes propertyBoxAnim{
+       0%{
+              transform: scale(.1);
+       }
+       50%{
+              transform: scale(1.1);
+       }
+       100%{
+              transform: scale(1);
+       }
+}
+.barista-property-img{
+       height: 350px;
+       width: 350px;
+       border-radius: .6rem;
+}
+.barista-zero-num{
+       color: #c7a17a !important;
+       font-size: 3rem;
+       font-weight: 600;
+}
+.barista-num{
+       color: #c7a17a !important;
+       font-size: 4rem;
+       font-weight: 600;
+}
+.barista-title{
+       font-size: 2rem;
+       font-weight: 500;
+}
+.barista-property-box-btn{
+       color: rgb(104, 102, 102);
+       border:  1px solid #c7a17a;
+       padding: 1vh 1vw;
+       border-radius: .8rem;
+       transition: all .7s;
+}
+.barista-property-box-btn:hover{
+       background-color: #c7a17a;
+       color: aliceblue;
+       transform: scale(1.1);
+}

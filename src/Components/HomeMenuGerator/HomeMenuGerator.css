@@ -1,0 +1,21 @@
+.home-menu-item-title{
+       font-size: 1.3rem;
+       font-weight: 500;
+       white-space: nowrap;
+}
+.home-menu-item-lines{
+       width:auto !important;
+overflow-x: hidden !important;
+}
+.home-menu-items-price{
+font-size: 1.3rem;
+font-weight: 500;
+}
+.home-menu-item-infos{
+color: #c7a17a;
+}
+.home-menu-item-badge{
+       background-color: #c7a17a;
+       font-weight: 500;
+}
+
