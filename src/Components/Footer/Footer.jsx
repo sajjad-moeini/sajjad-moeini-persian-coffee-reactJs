@@ -82,7 +82,7 @@ export default function Footer() {
 
                                                         <input type="text" className='form-control footer-email-input' placeholder='ایمیل خود را وارد کنید' />
                                                         <button className='footer-sendEmail-btn'>
-                                                               <i className=' fa fa-angle-right '></i>
+                                                               <i className=' fa fa-angle-left '></i>
                                                         </button>
                                                  </div>
 

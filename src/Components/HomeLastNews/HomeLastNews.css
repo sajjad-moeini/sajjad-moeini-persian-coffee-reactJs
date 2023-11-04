@@ -34,5 +34,5 @@
        transition: all .5s !important;
 }
 .home-last-news-box-btn:hover .home-last-news-box-btn-icon{
-       transform: translateX(2vw) !important;
+       transform: translateX(-2vw) !important;
 }

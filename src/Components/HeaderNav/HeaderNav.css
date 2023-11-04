@@ -2,13 +2,13 @@
        width: 15vw;
 }
 .headerNav-item{
-       font-size: 1.2rem;
+       font-size: 1.3rem !important;
        font-weight: 500;
      
 }
 .headerNav-item-active{
        color: #c7a17a !important;
-       font-size: 1.2rem;
+       font-size: 1.3rem;
        font-weight: 500;
        
 }

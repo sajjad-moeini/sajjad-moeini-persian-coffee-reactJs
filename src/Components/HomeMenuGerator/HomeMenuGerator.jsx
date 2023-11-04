@@ -3,7 +3,7 @@ import './HomeMenuGerator.css'
 import store from '../../Store'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-export default function HomeMenuGerator() {
+export default function HomeMenuGerator(textcolor) {
        useEffect(() => {
               AOS.init();
             }, [])
@@ -18,9 +18,9 @@ export default function HomeMenuGerator() {
                                                  </div>
                                                  <div className="col-10 d-flex-centering flex-column align-items-start">
                                                         <div className='d-flex w-100'>
-                                                               <div className="home-menu-item-title text-light ">{item.title}</div>
-                                                               <div className="home-menu-item-lines align-items-end text-light ">________________________________________________</div>
-                                                               <div className='home-menu-items-price text-light ms-3 ms-md-0 d-flex-centering'>{`${item.price.toLocaleString()}` }تومان</div>
+                                                               <div className="home-menu-item-title  " style={{color:textcolor}}>{item.title}</div>
+                                                               <div className="home-menu-item-lines align-items-end  " style={{color:textcolor}}>________________________________________________</div>
+                                                               <div className='home-menu-items-price  ms-3 ms-md-0 d-flex-centering' style={{color:textcolor}}>{`${item.price.toLocaleString()}` }تومان</div>
                                                         </div>
                                                         <div className="d-flex justify-content-between align-items-center w-100">
                                                                <div className='home-menu-item-infos'>

@@ -1,3 +1,16 @@
+@font-face {
+  font-family: YEKAN;
+  src: url(../public/font/Yekan.ttf);
+}
+.context{
+  width: 100vw !important;
+}
+:root{
+  font-size: 1.1rem;
+}
+*{
+  font-family:YEKAN ;
+}
 .d-flex-centering{
        display: flex;
        justify-content: center;
@@ -6,6 +19,7 @@
 body{
        background-color: #eae7de !important;
        overflow-x: hidden !important;
+       width: 100vw !important;
 }
 .cp{
        cursor: pointer !important;

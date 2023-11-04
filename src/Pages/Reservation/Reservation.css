@@ -1,0 +1,12 @@
+.reservation-bg-sction{
+              width: 100vw;
+              height: 50vh;
+              background: url(../../../public/images/menu/bg.jpg);
+              background-size: cover;
+}
+.reservation-form-container{
+       background-color: white !important;
+}
+input,textarea{
+       background-color: #eae7de !important;
+}

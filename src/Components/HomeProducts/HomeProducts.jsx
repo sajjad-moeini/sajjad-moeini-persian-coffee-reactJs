@@ -47,14 +47,14 @@ export default function HomeProducts() {
                                                                product.off ? (
                                                                       <>
                                                                       <div className='text-secondary text-decoration-line-through fs-5'>
-                                                                      {product.price}تومان
+                                                                      {product.price.toLocaleString()}تومان
                                                                       </div>
                                                                       <div className=' ms-2'>
-                                                                             {product.oofPrice}تومان
+                                                                             {product.oofPrice.toLocaleString()}تومان
                                                                       </div>
                                                                       </>
                                                                ): (
-                                                                     ` ${product.price}تومان`
+                                                                     ` ${product.price.toLocaleString()}تومان`
                                                                )
                                                         }
                                                  </div>

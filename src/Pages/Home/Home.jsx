@@ -83,7 +83,7 @@ export default function Home() {
         <SvgGen pos={'top'} />
         <div className='home-barista-menu-wrapper w-100 h-100 py-5'>
           <SectionTitle subTitle={'اینجا چه اتفاقی می افتد'} title={'طعم های قهوه مورد علاقه.'} titleColor={'white'} />
-          <HomeMenuGerator />
+          <HomeMenuGerator textcolor={'white'} />
           <div className='my-2 mx-auto d-flex-centering'>
             <Link className='home-barista-menu-btn text-light my-5' to={'/menu'}>مشاهده منو</Link>
           </div>

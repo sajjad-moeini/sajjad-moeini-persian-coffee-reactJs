@@ -1,0 +1,9 @@
+.menu-bg-sction{
+       width: 100vw;
+       height: 50vh;
+       background: url(../../../public/images/menu/bg.jpg);
+       background-size: cover;
+}
+.home-menu-item-lines,.home-menu-items-price,.home-menu-item-title{
+       color: black !important;
+}

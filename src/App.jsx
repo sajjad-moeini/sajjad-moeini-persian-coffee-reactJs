@@ -9,13 +9,24 @@ import HeaderNav from './Components/HeaderNav/HeaderNav'
 import Footer from './Components/Footer/Footer'
 function App() {
   const router = useRoutes(Router)
-
+  const [users, setUsers] = useState([])
+  const [isLogin, setIsLogin] = useState(false)
+  const [navlogo, setNavLogo] = useState("images/home/logo.png")
   return (
     <>
-      <siteContext.Provider value={''}>
+      <siteContext.Provider value={{
+        users,
+        setUsers,
+        isLogin,
+        setIsLogin,
+navlogo,
+        setNavLogo,
+      }}>
+        <div className="context">
         <HeaderNav />
         {router}
         <Footer />
+        </div>
       </siteContext.Provider>
     </>
   )

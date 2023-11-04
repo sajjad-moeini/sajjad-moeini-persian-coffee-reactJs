@@ -16,7 +16,7 @@ export default function HomeHeaderCarousel() {
               </video>
 
             </div>)}
-            <div className="home-carousel-item-wrapper w-100 h-100  d-flex  align-items-center flex-column z-0">
+            <div className="home-carousel-item-wrapper w-100 h-100  d-flex  align-items-center flex-column  z-0">
               <img src={item.icon} className='img-fluid my-5' alt="" />
               <div className="carousel-title text-light  my-4">
                 {item.title}

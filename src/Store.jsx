@@ -60,10 +60,10 @@ const store = {
               {img:'images/home/h-1-list-icon-img-12-150x150.jpg',title:'لاته یخی',price:97000,infos:'اسپرسو همراه شیر ویخ',new:false},
        ],
        homeProducts:[
-              {img:'images/home/product-image-1.jpg',title:'کیسه کاغذی',fullStar:['','',''],halfStar:[''],price:'46000',sale:false,off:false,},
-              {img:'images/home/product-image-2.jpg',title:'بسته کاغذی',fullStar:['','','',''],halfStar:[''],price:'98000',sale:true,off:true,oofPrice:'79.00'},
-              {img:'images/home/product-image-3.jpg',title:'بسته پلاستیکی',fullStar:['','','','',''],halfStar:[],price:'27000',sale:false,off:false,},
-              {img:'images/home/product-image-4.jpg',title:'قهوه جوش',fullStar:['','','','',],halfStar:[],price:'71000',sale:false,off:false,},
+              {img:'images/home/product-image-1.jpg',title:'کیسه کاغذی',fullStar:['','',''],halfStar:[''],price:46000,sale:false,off:false,},
+              {img:'images/home/product-image-2.jpg',title:'بسته کاغذی',fullStar:['','','',''],halfStar:[''],price:'98000',sale:true,off:true,oofPrice:79000},
+              {img:'images/home/product-image-3.jpg',title:'بسته پلاستیکی',fullStar:['','','','',''],halfStar:[],price:27000,sale:false,off:false,},
+              {img:'images/home/product-image-4.jpg',title:'قهوه جوش',fullStar:['','','','',],halfStar:[],price:71000,sale:false,off:false,},
        ],
        homeLastNewItems:[
               {img:"images/home/home-1-blog-f-img-1.jpg",title:"ساده اش کن" ,date:"23.02.2016"},
